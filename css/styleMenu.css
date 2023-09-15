@@ -1,0 +1,53 @@
+body {
+    justify-content: center;
+    background-image: url(/img/fondo.jpg);
+    background-size: cover;
+    padding: 90px;
+
+}
+
+body .inicio h1 {
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body .inicio h2 {
+    text-align: left;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body ol {
+    text-align: left;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+    padding-top: 5px;
+    width: 18%;
+}
+
+li:hover,
+a:hover {
+    font-size: 30px;
+    color: white;
+    list-style: none;
+    font-style: oblique;
+    width: 35%;
+
+}
+
+.gif {
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}

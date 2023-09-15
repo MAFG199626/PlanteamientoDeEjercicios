@@ -1,0 +1,53 @@
+body {
+    background-image: url(/img/fondoIMP.png);
+}
+.contenedor {
+    margin-top: 5%;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+    background-color: rgba(40, 116, 183, 0.79);
+    text-align: center;
+    border-radius: 30px;
+    height: 20%;
+}
+.contenedor2 {
+    margin-top: 2%;
+    justify-content: center;
+    display: grid;
+    background-color: rgba(199, 199, 199, 0.878);
+    text-align: center;
+    border-radius: 30px;
+    justify-self: center;
+    margin-left: 23%;
+    margin-right: 23%;
+}
+.salida {
+    text-align: left;
+}
+button {
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+    border-style: none;
+}
+.pie{
+
+    font-size: 30px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    background-color:white;
+}
+.pie a{
+    text-decoration: none;
+    color: black;
+}
+.pie a:hover{
+    font-size: 45px;
+    color: black;
+    list-style: none;
+    font-style: oblique;
+    width: 35%;
+}
