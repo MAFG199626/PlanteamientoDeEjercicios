@@ -1,11 +1,3 @@
-body {
-    justify-content: center;
-    background-image: url(./img/fondo.jpg);
-    background-size: cover;
-    padding: 90px;
-
-}
-
 body .inicio h1 {
     text-align: center;
     font-style: italic;
@@ -45,7 +37,6 @@ a:hover {
 }
 
 .gif {
-
     position: fixed;
     bottom: 0;
     right: 0;
