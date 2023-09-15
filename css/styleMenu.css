@@ -1,6 +1,6 @@
 body {
     justify-content: center;
-    background-image: url(/img/fondo.jpg);
+    background-image: url(./img/fondo.jpg);
     background-size: cover;
     padding: 90px;
 
