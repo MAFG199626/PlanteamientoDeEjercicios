@@ -95,5 +95,11 @@ function alrevez() {
 
             var daño = Math.floor(50 * (ataque / defensa) * eficacia);
             document.getElementById("result").innerHTML = `El Daño es de ${daño}`;
-        }
 
+                        //////////////////////////////
+
+            const select = document.getElementById("tipo2");
+            const seleccion = select.value;
+            const img = document.getElementById("pokemonMove");
+            img.innerHTML = `<img src="./img/${seleccion}.png" alt="no hay xd" id="pokemon2" class="pokemon2move">`;
+        }
