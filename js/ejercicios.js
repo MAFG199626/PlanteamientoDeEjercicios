@@ -97,9 +97,15 @@ function alrevez() {
             document.getElementById("result").innerHTML = `El Daño es de ${daño}`;
 
                         //////////////////////////////
+            const select1 = document.getElementById("tipo1");
+            const seleccion1 = select1.value;
+            const img1 = document.getElementById("pokemonMove1");
+            img1.innerHTML = `<img src="./img/${seleccion1}.png" alt="no hay xd" id="pokemon1" class="pokemon1move">`;
 
-            const select = document.getElementById("tipo2");
-            const seleccion = select.value;
-            const img = document.getElementById("pokemonMove");
-            img.innerHTML = `<img src="./img/${seleccion}.png" alt="no hay xd" id="pokemon2" class="pokemon2move">`;
+
+                        //////////////////////////////
+            const select2 = document.getElementById("tipo2");
+            const seleccion2 = select2.value;
+            const img2 = document.getElementById("pokemonMove2");
+            img2.innerHTML = `<img src="./img/${seleccion2}.png" alt="no hay xd" id="pokemon2" class="pokemon2move">`;
         }
