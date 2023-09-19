@@ -109,3 +109,8 @@ function alrevez() {
             const img2 = document.getElementById("pokemonMove2");
             img2.innerHTML = `<img src="./img/${seleccion2}.png" alt="no hay xd" id="pokemon2" class="pokemon2move">`;
         }
+
+        function changeImg(id){
+            let visor = document.getElementById("visor")
+            visor.setAttribute("src",`img/img${id}.jpg`)
+        }

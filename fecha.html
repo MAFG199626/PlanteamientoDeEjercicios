@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>fecha</title>
+        <link rel="stylesheet" href="./css/styleEjercicios.css">
+    </head>
+    <style>
+        body{
+            padding: 0;
+            margin: 3%;
+            text-align: center;
+            font-family: 'DM Serif Display', serif;
+            background-image: url(./img/fondotiempo.jpg);
+            background-size: 100%;
+        }
+    </style>
+    <body>
+        <div>
+            <h1 >La fecha del primer y el ultimo año dado es... </h1>
+        </div>
+        
+        <script>
+            function Knowndate(date){
+                var d = new Date(date);
+                var aux = new Date(date);
+                d.setDate(aux.getDate() - (aux.getDate() - 1));
+                document.write(d + "<br></br>");
+                for (var i = 31; i > 27; i--) {
+                    d.setDate(i);
+                    if (d.getMonth() > aux.getMonth()) {
+                        d = new Date(date);
+                    }
+                    else {
+                        document.write(d + "<br></br>");
+                        break;
+                    }
+                }
+            }
+            var date = prompt("Ingrese una fecha mes/dia/año\nEjemplo: 01/01/2023");
+            Knowndate(date);
+        </script>
+            <footer class="pie">
+                <a href="./index.html">Regresar al Menu</a>
+            </footer>
+    </body>
+
+</html>

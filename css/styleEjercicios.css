@@ -67,6 +67,15 @@ li {
     text-align: center;
     border-radius: 30px;
     height: 450px;
+    background-size: 100%;
+}
+.contenedor6 {
+    display: grid;
+    place-items: center;
+    background-color: var();
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
 }
 
 .partes {
@@ -208,4 +217,18 @@ button {
     80% {-webkit-transform: translate(0px, 0px);}
     90% {-webkit-transform: translate(40px, 0px);}
     100% {-webkit-transform: translate(0px, 0px);}
+}
+
+.preview img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.preview img:hover{
+    cursor: pointer;
+}
+.visor{
+    height: 600px;
+    width: 600px;
+    border-radius: 20px;
 }
